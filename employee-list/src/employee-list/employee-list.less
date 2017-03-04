@@ -1,0 +1,36 @@
+@base: rgb(60, 211, 173);
+.employee-list {
+    margin-top: 30px;
+    .employee {
+        padding-bottom: 30px;
+        cursor: pointer;
+        .employee-header {
+            border-bottom: 2px solid #ccc;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+            .title {
+                padding: 10px;
+                font-weight: bold;
+            }
+            .icon {
+                padding-top: 10px;
+                padding-right: 10px;
+            }
+        }
+        .bio {
+            padding: 10px;
+        }
+        .active {
+            border-bottom: 2px solid @base;
+            color: @base;
+            -webkit-transition: 0.2s all linear;
+            -moz-transition: 0.2s all linear;
+            -o-transition: 0.2s all linear;
+            transition: 0.2s all linear;
+        }
+    }
+}

@@ -1,0 +1,9 @@
+<ul class="employee-list">
+    <li class="employee" ng-repeat="employee in $ctrl.employees">
+        <div class="employee-header" ng-click="$ctrl.toggleEmployee(employee)" ng-class="{active: $ctrl.isEmployeeShown(employee)}">
+            <p class="title">{{employee.name}}</p>
+            <i class="icon fa fa-arrow-down" ng-class="$ctrl.isEmployeeShown(employee) ? 'fa-arrow-up' : 'fa-arrow-down'"></i>
+        </div>
+        <p class="bio" ng-show="$ctrl.isEmployeeShown(employee)" ng-click="$ctrl.showAlert(employee.others)">{{employee.bio}}</p>
+    </li>
+</ul>
