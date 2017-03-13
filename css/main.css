@@ -1,20 +1,23 @@
-body{
-	font-family: "微軟正黑體", "Microsoft JhengHei", arial,helvetica,sans-serif;
-	color: #333;
-	color: rgba(0,0,0,0.5);
-	background: #4CB8C4; /* fallback for old browsers */
-	background: -webkit-linear-gradient(bottom, #4CB8C4, #3CD3AD);
-	background: linear-gradient(to top, #4CB8C4, #3CD3AD); /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	background: -o-linear-gradient(bottom, #4CB8C4, #3CD3AD);
+body {
+    font-family: "微軟正黑體", "Microsoft JhengHei", arial, helvetica, sans-serif;
+    color: #333;
+    color: rgba(0, 0, 0, 0.5);
+    background: #4CB8C4;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(bottom, #4CB8C4, #3CD3AD);
+    background: linear-gradient(to top, #4CB8C4, #3CD3AD);
+    /* Chrome 10-25, Safari 5.1-6 */
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -o-linear-gradient(bottom, #4CB8C4, #3CD3AD);
 }
 
-h1{
-	color:#fff;
-	margin-bottom: 30px;
+h1 {
+    color: #fff;
+    margin-bottom: 30px;
 }
 
-.section{
-	text-align:center;
+.section {
+    text-align: center;
 }
 
 .vcenter {
@@ -23,153 +26,162 @@ h1{
     float: none;
 }
 
+
 /* Section 0
  * --------------------------------------- */
 
-#section0 .profile{
-	width:20%;
-	border-radius: 50%;
-	-moz-border-radius: 50%;
+#section0 .profile {
+    width: 20%;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
-	border: 8px solid #4BBFC3;
-	box-shadow: 0 0 0 8px #ccc;
+    border: 8px solid #4BBFC3;
+    box-shadow: 0 0 0 8px #ccc;
 }
 
-
-#section0 .icon ul li{
-	display: inline;
-	padding:10px;
-
+#section0 .icon ul li {
+    display: inline;
+    padding: 10px;
 }
 
-#section0 .icon ul li a{
-	color:#fff;
+#section0 .icon ul li a {
+    color: #fff;
 }
 
 
 /* Section 1
  * --------------------------------------- */
-#section1 .content{
-	font-size: 17px;
-	margin-top: 50px;
+
+#section1 .content {
+    font-size: 17px;
+    margin-top: 50px;
 }
+
 
 /* Section 2
  * --------------------------------------- */
 
-#section2 .box .icon{ 
-	text-align: center; position: relative; 
+#section2 .box .icon {
+    text-align: center;
+    position: relative;
 }
-#section2 .box .icon .image{ 
-	position: relative;
-	z-index: 2; 
-	margin: auto; 
-	width: 88px; 
-	height: 88px; 
-	border: 8px solid white; 
-	line-height: 88px; 
-	border-radius: 50%;  
-	vertical-align: middle; 
+
+#section2 .box .icon .image {
+    position: relative;
+    z-index: 2;
+    margin: auto;
+    width: 88px;
+    height: 88px;
+    border: 8px solid white;
+    line-height: 88px;
+    border-radius: 50%;
+    vertical-align: middle;
 }
-#section2 .box .icon .info{ 
-	margin-top: -24px; 
-	background: rgba(255,255,255,0.5); 
-	border: 2px solid #e0e0e0; 
-	padding: 15px 0 10px 0;
+
+#section2 .box .icon .info {
+    margin-top: -24px;
+    background: rgba(255, 255, 255, 0.5);
+    border: 2px solid #e0e0e0;
+    padding: 15px 0 10px 0;
 }
-#section2 .box .icon:hover .info{ 
-	background: rgba(0, 0, 0, 0.1); 
-	border-color: #e0e0e0; 
-	color: white; 
+
+#section2 .box .icon:hover .info {
+    background: rgba(0, 0, 0, 0.1);
+    border-color: #e0e0e0;
+    color: white;
 }
-#section2 .box .icon .info .title{ 
-	font-size: 28px; 
-	color: #222; 
-	font-weight: 500; 
+
+#section2 .box .icon .info .title {
+    font-size: 28px;
+    color: #222;
+    font-weight: 500;
 }
-#section2 .box .icon .info p{ 
-	font-size: 15px; 
-	color: #666; 
-	line-height: 1.5em; 
-	margin: 20px;
+
+#section2 .box .icon .info p {
+    font-size: 15px;
+    color: #666;
+    line-height: 1.5em;
+    margin: 20px;
 }
-#section2 .box .icon .info .more{ 
-	font-size: 12px; 
-	color: #222; 
-	line-height: 12px; 
-	text-decoration: none; 
+
+#section2 .box .icon .info .more {
+    font-size: 12px;
+    color: #222;
+    line-height: 12px;
+    text-decoration: none;
 }
-#section2 .box .icon:hover .info .more{ 
-	color: #fff; 
-	padding: 6px 8px; 
-	background-color: rgb(235,100,134); 
+
+#section2 .box .icon:hover .info .more {
+    color: #fff;
+    padding: 6px 8px;
+    background-color: rgb(235, 100, 134);
 }
-#section2 .box .space { 
-	height: 2px; 
-	background-color: #6CB4C4;
+
+#section2 .box .space {
+    height: 2px;
+    background-color: #6CB4C4;
 }
 
 
 /* Section 3
  * --------------------------------------- */
-.skill-set{
-	max-width: 500px;
-	margin: 0 auto;
+
+.skill-set {
+    max-width: 500px;
+    margin: 0 auto;
 }
 
-.skill-set li{
-	background:rgb(235,100,134);
-	border-radius:5px;
-	color:#FFF;
-	display:inline-block;
-	list-style:none;
-	margin:15px 15px 0 0;
-	padding:10px;
-	text-align:justify;
+.skill-set li {
+    background: rgb(235, 100, 134);
+    border-radius: 5px;
+    color: #FFF;
+    display: inline-block;
+    list-style: none;
+    margin: 15px 15px 0 0;
+    padding: 10px;
+    text-align: justify;
 }
-
 
 
 /* Section 4
  * --------------------------------------- */
-#section4 .contact-icon{
-	width: 380px;
+
+#section4 .contact-icon {
+    width: 380px;
     margin: 0 auto;
     font-size: 30px;
     text-align: left;
 }
 
-#section4 .contact-icon li{
-	margin:5px 0; 
+#section4 .contact-icon li {
+    margin: 5px 0;
 }
 
-#section4 .contact-icon .fa-2x{
-  vertical-align: middle;
+#section4 .contact-icon .fa-2x {
+    vertical-align: middle;
 }
 
-#section4 ul.nav li a, ul.nav li a:visited {
-    color: rgba(0,0,0,0.5) !important;
+#section4 ul.nav li a,
+ul.nav li a:visited {
+    color: rgba(0, 0, 0, 0.5) !important;
 }
 
-#section4 ul.nav li a:hover, ul.nav li a:active {
-    color: rgba(0,0,0,0.5) !important;
+#section4 ul.nav li a:hover,
+ul.nav li a:active {
+    color: rgba(0, 0, 0, 0.5) !important;
 }
 
 #section4 a {
-    color: rgba(0,0,0,0.5) !important;
+    color: rgba(0, 0, 0, 0.5) !important;
     cursor: pointer;
 }
 
-
-
-
-@media all and (max-width: 640px){
-	#section0 .profile{
-		width:80%;
-	}
-
-	#section4 .contact-icon{
-		width: 200px;
-		font-size: 15px;
-	}	
+@media all and (max-width: 640px) {
+    #section0 .profile {
+        width: 80%;
+    }
+    #section4 .contact-icon {
+        width: 200px;
+        font-size: 15px;
+    }
 }
