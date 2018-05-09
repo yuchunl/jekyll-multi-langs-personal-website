@@ -1,0 +1,21 @@
+ul.may-language-selector{
+  display: inline;
+  font-size: 0;
+  line-height:50px;
+  .may-language{
+    border:1px solid #fff;  
+    display: inline;
+    padding: 4px;
+    font-size:14px;
+    a{
+      cursor: pointer;
+      &.active{
+        color: #23ad86;
+        font-weight: bold;
+      }
+    }
+    &:nth-child(1){
+      border-right: none;
+    }
+  }
+}

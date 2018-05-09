@@ -1,0 +1,61 @@
+# Site settings
+# -------------
+
+title: Yu-Chun Lin
+
+# Page settings
+url: ""
+baseurl: ""
+date_format: "%b %-d, %Y"
+
+# Language setting
+languages: ["en", "cn"]
+exclude_from_localizations: ["javascript", "images", "css", "scripts", "favicon.ico"]
+
+# SEO settings
+email: may90603@126.com
+author: Yu-Chun Lin
+logo: /assets/favicon.png
+
+# Build settings
+# --------------
+
+# Default markdown parser
+markdown: kramdown
+
+# Make sure that pages don't end up behind weird urls like:`_pages/myPage.html`
+collections:
+  pages:
+    output: true
+    permalink: /:title.html
+  posts:
+    output: true
+    permalink: /:title.html
+    
+# Make sure the `_pages/` is processed
+include:
+  - _pages
+
+# Make sure the `_site/assets/` is not trashed (webpack output)
+keep_files:
+  - assets
+
+# List our Jekyll plugins below
+plugins:
+- jekyll-seo-tag
+- jekyll-multiple-languages-plugin
+
+# Exclude from processing (not moved to `_site/`)
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - package.json
+  - CNAME
+  - LICENSE
+  - README.md
+  - webpack.config.js
+  - sass-lint.yml
+  - "*.lock"
+  - "*.log"
+  - vendor

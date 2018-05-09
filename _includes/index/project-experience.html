@@ -1,0 +1,23 @@
+<div class="section work-experience">
+  <div class="row">
+    <div class="col-12">
+      <div class="row may-title-container">
+        <div class="col-1 may-box"></div>
+        <div class="col-11 may-title">{% t project-experience.title %}</div>
+        <div class="col-12 may-line"></div>
+      </div>
+    </div>
+
+    <div class="col-12">
+      {% assign sorted = site.categories.project | sort: 'date' | reverse %}
+      {% for project in sorted %} 
+      <div class="description may-project-description">
+        <p class="may-project-title">{{ project.title }}</p>
+        <p>{% t project-experience.product %}：{{ project.description }}</p>
+        <p>{% t project-experience.technology %}：{{ project.technology}}</p>
+        <p>{% t project-experience.responsibility %}：{{ project.responsibility}}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

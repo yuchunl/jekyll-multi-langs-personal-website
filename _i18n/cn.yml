@@ -1,0 +1,32 @@
+langs:
+  en: EN
+  cn: CN
+email: 邮箱
+phone: 电话
+contact: 聯繫方式
+more: 更多資料
+website: 個人主頁
+linkedin: 领英
+resume: 简历
+summary:
+  gender: 女
+  experence: 兩年工作经验
+  city: 杭州
+  education: 本科
+  name: 林钰君
+work-experience:
+  title: 工作经历
+project-experience:
+  title: 项目经验
+  product: 产品描述
+  technology: 所需技术
+  responsibility: ⼯作职责
+education-experience:
+  title: 教育经历
+  marjor: 經濟系
+  minor: 資訊科學
+  graducation: 2015年10月畢業
+  city: 加拿大 溫哥華
+
+
+

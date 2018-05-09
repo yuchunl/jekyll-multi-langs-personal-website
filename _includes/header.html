@@ -1,0 +1,27 @@
+<header class="header">
+  <div class="row justify-content-between"> 
+    <div class="col-3 col-md-2 col-lg-1 pl-0">
+      <ul class="may-language-selector">
+        {% for lang in site.languages %}
+          {% if lang == site.default_lang %}
+            {% if site.lang == site.default_lang %}        
+              <li class="may-language"><a href="{{ page.url }}" class="active">{% t langs.{{ lang }} %}</a></li>
+            {% else %}
+              <li class="may-language"><a href="{{ page.url }}">{% t langs.{{ lang }} %}</a></li>
+            {% endif %}
+          {% else %}
+            {% if site.lang == 'cn' %}
+            <li class="may-language"><a class="active" href="/{{ lang }}{{ page.url }}">{% t langs.{{ lang }} %}</a></li>
+            {% else %}
+            <li class="may-language"><a href="/{{ lang }}{{ page.url }}">{% t langs.{{ lang }} %}</a></li>            
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+        </ul>
+    </div>
+    <div class="col col-md-10">
+      <span class="may-contact-infor">{% t email %}： may90603@126.com</span>
+      <span class="may-contact-infor">{% t phone %}：+86 13588480270</span>
+    </div>
+  </div>
+</header>

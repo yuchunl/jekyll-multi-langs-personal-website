@@ -1,0 +1,28 @@
+// Example:
+// <div class="row may-title-container">
+// <div class="col-1 may-box"></div>
+// <div class="col-11 may-title">工作經驗</div>
+// <div class="col-12 may-line"></div>
+// </div>
+
+$box-height:80px;
+.may-title-container{
+  padding-bottom: 20px;
+  .may-box{
+    background-color: $hightline-color;
+    height: $box-height;
+    vertical-align: middle;  
+  }
+  
+  .may-title{
+    vertical-align: middle;
+    line-height: $box-height;
+    font-size: 30px;
+  }
+  
+  .may-line{
+    width:100%;
+    height:5px;
+    background-color: $hightline-color;
+  }
+}

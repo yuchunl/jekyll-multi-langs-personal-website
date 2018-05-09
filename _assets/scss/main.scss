@@ -1,0 +1,64 @@
+// Plugin
+@import './_bootstrap.scss';
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+// Custom variables
+@import './_variables.scss';
+
+// Modules
+@import './modules/title-container.scss';
+@import './modules/language-selector.scss';
+@import './modules/personal-info.scss';
+@import './modules/header.scss';
+
+html,body {
+  color: #000;
+}
+
+p{
+  margin-bottom: 0;
+}
+
+.section{
+  margin-bottom: 50px;
+}
+
+.may-summary{
+  padding-top:100px;
+}
+
+.may-subtitle{
+  ul{
+    li{
+      &:before {
+        content: "•";
+        font-size: 200%;
+        color: $hightline-color;
+        padding-right: 0.2em;
+      }
+    }
+  }
+}
+
+
+
+
+.may-project-title{
+  font-weight: bold;
+}
+
+.description{
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+.may-school-name{
+  &:before {
+    content: "►";
+    font-size: 100%;
+    color: $hightline-color;
+    padding-right: 0.2em;
+  }
+}
+
+

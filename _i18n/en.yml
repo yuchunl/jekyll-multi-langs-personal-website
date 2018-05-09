@@ -1,0 +1,29 @@
+langs:
+  en: EN
+  cn: CN
+email: E-mail
+phone: Phone
+contact: Contact
+more: More
+website: Website
+linkedin: Linkedin
+resume: Resume
+summary:
+  gender: Female
+  experence: 2-yrs experiences
+  city: Hangzhou
+  education: Bachelor
+  name: Yu-Chun Lin
+work-experience:
+  title: Work Experience
+project-experience:
+  title: Project Experience
+  product: Product Description
+  technology: Technology
+  responsibility: Responsibility
+education-experience:
+  title: Education Experience
+  marjor: Economics
+  minor: Computering Science
+  graducation: Graduated in Oct 2015
+  city: Vancouver, Canada
