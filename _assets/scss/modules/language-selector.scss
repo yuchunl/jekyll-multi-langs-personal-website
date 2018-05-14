@@ -9,8 +9,9 @@ ul.may-language-selector{
     font-size:14px;
     a{
       cursor: pointer;
+      color: #fff;
       &.active{
-        color: #23ad86;
+        color: $active-color;
         font-weight: bold;
       }
     }

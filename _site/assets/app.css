@@ -6062,7 +6062,8 @@ ul.may-language-selector .may-language {
     padding: 4px;
     font-size: 14px; }
 ul.may-language-selector .may-language a {
-      cursor: pointer; }
+      cursor: pointer;
+      color: #fff; }
 ul.may-language-selector .may-language a.active {
         color: #23ad86;
         font-weight: bold; }
